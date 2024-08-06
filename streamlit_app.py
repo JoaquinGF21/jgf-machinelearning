@@ -21,6 +21,5 @@ with st.expander('Data'):
 
 
 with st.expander('Data visualization'):
-  # bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g
-  st.scatter_chart(data=df, x='Bill Length mm', y='Body Mass g', color='Species')
+  st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
                   
